@@ -1,6 +1,12 @@
 {
   "settingsInheritedFrom": "Gal-Doron/whitesource-config@main",
   "remediateSettings": {
-    "enableRenovate": true
+    "enableRenovate": true,
+     "packageRules": [
+    {
+      "matchUpdateTypes": ["patch"],
+      "labels": ["patch-type"]
+    }
+  ]
   }
 }
